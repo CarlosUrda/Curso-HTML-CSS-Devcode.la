@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body {
+    font-family: arial;
+}
+
+#curriculum {
+    float: right;
+    width: 66%;
+}
+
+#curriculum article {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+#curriculum article > * {
+    margin-left: 40px;
+    margin-right:  40px;
+}
+
+#curriculum article img {
+    width: 100%;
+}
+
+#curriculum article figcaption {
+    margin-top: 15px;
+}
+
+#curriculum article figcaption figure {
+    margin-top: 10px;
+}
+
+.titulo {
+    color: #415C71;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+#biografia {
+    position: relative;
+    background: #50AAAA;
+    width: 33vw;
+    height: 100vh;
+    float: left;
+}
+
+#biografia footer {
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 25px;
+}
+
+#biografia header {
+    position: absolute;
+    top: 0px;
+    padding: 30px 25px;
+}
+
+#biografia header .foto{
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#biografia header .nombre {
+    display: inline-block;
+    margin: auto;
+    font-size: 25px;
+    word-wrap: break-word;
+    overflow-wrap: normal;
+    color: white;
+}
+
+.descripcion {
+    margin-top: 20px;
+}
+
+.etiqueta {
+    background: #2D5478;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+}
